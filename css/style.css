@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+input:focus{
+ outline: transparent;
+}
+
 .header {
   background-color: #0050B3;
   padding: 6px 0;
@@ -27,7 +31,6 @@ a {
 .search-input {
   font-size: 14px;
   line-height: 22px;
-  width: 336px;
   width: 100%;
   padding: 5px 30px 5px 12px;
   background: #FFFFFF;
@@ -172,6 +175,16 @@ a {
 .nav-link.active {
   background-color: #FFFFFF;
   color: #262626;
+}
+
+.nav-link.active .drag-and-drop {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.drag-and-drop {
+  display: none;
 }
 
 .nav-icon {
