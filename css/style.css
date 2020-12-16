@@ -11,8 +11,9 @@ a {
   text-decoration: none;
 }
 
-input, button:focus{
- outline: transparent;
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #1890FF;
 }
 
 button {
@@ -30,6 +31,11 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.search {
+  width: 100%;
+  max-width: 336px;
 }
 
 .search-input {
@@ -123,6 +129,7 @@ button {
 
 .header-dropdown {
   fill: #002766;
+  transition: fill 0.5s ease;
 }
 
 .header-dropdown:hover {
@@ -131,6 +138,7 @@ button {
 
 .header-icon {
   fill: #002766;
+  transition: fill 0.5s ease;
 }
 
 .header-icon:hover {
@@ -223,6 +231,7 @@ button {
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
+  transition: color 0.3s ease;
 }
 
 .dropdown-link:hover {
