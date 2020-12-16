@@ -11,8 +11,12 @@ a {
   text-decoration: none;
 }
 
-input:focus{
+input, button:focus{
  outline: transparent;
+}
+
+button {
+  cursor: pointer;
 }
 
 .header {
@@ -119,6 +123,10 @@ input:focus{
 
 .header-dropdown {
   fill: #002766;
+}
+
+.header-dropdown:hover {
+  fill: #ffffff;
 }
 
 .header-icon {
