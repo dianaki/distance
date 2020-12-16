@@ -117,6 +117,10 @@ input:focus{
   margin-left: 7px;
 }
 
+.header-dropdown {
+  fill: #002766;
+}
+
 .header-icon {
   fill: #002766;
 }
@@ -189,6 +193,7 @@ input:focus{
 
 .nav-icon {
   margin-right: 8px;
+  fill: #1890FF;
 }
 
 .nav-title {
@@ -218,6 +223,7 @@ input:focus{
 
 .dropdown-icon {
   margin-right: 12px;
+  fill: #BFBFBF;
 }
 
 .main-feed {
@@ -296,4 +302,137 @@ input:focus{
 
 .tag-icon:last-child {
   margin-right: 0;
+}
+
+.post {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin: 16px 0;
+  padding: 16px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.post-header .user-avatar {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+}
+
+.post-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-author {
+  width: 100%;
+}
+
+.post-header-button {
+  background-color: #ffff;
+  border: none;
+}
+
+.post-author {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0050B3;
+}
+
+.post-info-time {
+  display: flex;
+  align-items: center;
+}
+
+.post-time {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #8C8C8C;
+}
+
+.post-time:after {
+  display: inline-block;
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #BFBFBF;
+  margin: 0 6px;
+  vertical-align: middle;
+}
+
+.post-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+  margin-bottom: 16px;
+}
+
+.post-text a {
+  color: #096DD9;
+}
+
+.post-image {
+  border: 1px solid #BFBFBF;
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.post-likes {
+  margin: 9px 0;
+  display: flex;
+  align-items: center;
+}
+
+.likes-counter {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+  margin-left: 4px;
+}
+
+.likes-icon {
+  fill: #1890FF;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.post-footer:before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #E8E8E8;
+  margin-bottom: 16px;
+}
+
+.post-button {
+  background-color: #ffff;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.post-button-text {
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #595959;
+}
+
+.post-icon {
+  fill: #595959;
 }
