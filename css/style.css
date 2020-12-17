@@ -759,6 +759,13 @@ button {
     width: 95%;
   }
 
+  .create-post-footer {
+    justify-content: center;
+  }
+  .tag {
+    margin-bottom: 10px;
+  }
+
   .right-sidebar {
     display: none;
   }
